@@ -207,7 +207,7 @@
     "yallist": "^4.0.0"
   },
   "scripts": {
-    "test": "cross-env NODE_ENV=test jest --testTimeout=10000"
+    "test": "cross-env NODE_ENV=test jest --testTimeout=10000 --forceExit"
   },
   "keywords": [],
   "author": "",
